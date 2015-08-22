@@ -1,5 +1,7 @@
 'use strict'
 
+module.exports = createSpikes2D
+
 function GLSpikes2D(plot) {
   this.plot = plot
   this.enable = [true, true, false, false]
@@ -23,6 +25,7 @@ proto.update = function(options) {
                   [0,0,0,1],
                   [0,0,0,1]]).map(function(x) { return x.slice() })
   this.center = (options.center || [Infinity,Infinity]).slice()
+  this.plot.setOverlayDirty()
 }
 
 proto.draw = function() {
