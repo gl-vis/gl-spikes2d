@@ -1,6 +1,6 @@
 {
   "name": "gl-spikes2d",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Axes spikes for 2d webgl plots",
   "main": "spikes.js",
   "scripts": {
