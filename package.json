@@ -4,6 +4,7 @@
   "description": "Axes spikes for 2d webgl plots",
   "main": "spikes.js",
   "scripts": {
+    "postshrinkwrap": "chttps .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/gl-vis/gl-spikes2d/issues"
   },
-  "homepage": "https://github.com/gl-vis/gl-spikes2d#readme"
+  "homepage": "https://github.com/gl-vis/gl-spikes2d#readme",
+  "devDependencies": {
+    "chttps": "^1.0.6"
+  }
 }
